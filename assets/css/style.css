@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap');
 
 
 *{
@@ -9,11 +9,13 @@
 }
 :root{
     --dark-pink : #dd127b
+    --dark-white : #e2e2e2
 }
 
 .dark-pink{
     background-color: var(--dark-pink);
 }
+
 /* universal css start*/
 a{
     text-decoration: none;
@@ -44,6 +46,30 @@ a.dropdown-item:hover {
 .fw-4{
     font-weight: 400;
 }
+.fw-5{
+    font-weight: 500;
+}
+.fw-6{
+    font-weight: 600;
+}
+.text-primary2{
+    color: #0093dd;
+}
+.bg-secondary2{
+    background-color: #e2e2e2;
+}
+h3{
+    color: #dd127b;
+    font-family: 'Franklin Gothik Medium', 'Arial Narrow', sans-serif;
+}
+p{
+    font-family: "roboto", sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+}
+
+
 /* universal css end */
 /* banner start */
 .carousel{
@@ -53,5 +79,68 @@ a.dropdown-item:hover {
     position: absolute;
     right: 0;
     bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
 } */
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #dd127b; 
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item{
+    position: relative;
+    display: none;
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+.carousel-item .carousel-caption{
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    right: 9%;
+    text-align: left;
+    color: #dd127b !important;
+    font-family: "solway";
+}
+.carousel-item .carousel-caption a:hover{
+    color:#dd127b !important ;
+    transform:scale(1.03s);
+    transition: all 0.2s;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 8%;
+    opacity: 0.9;
+}
+.breadcrumb{
+    height: 350px;
+    line-height: 350px;
+    justify-content: center;
+}
+marquee{
+    box-shadow: 0 0 5px grey;
+}
+
 /* banner end */
