@@ -144,3 +144,24 @@ marquee{
 }
 
 /* banner end */
+/* need-help section start */
+.address-info{
+    padding: 0px 30px;
+    border-radius: 15px;
+    border-top: 4px solid #0093dd;
+    border-bottom: 4px solid #0093dd;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+.add-icon a{
+    font-size: 25px;
+    color: #0093dd;
+    padding:12px 17px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+.add-icon a:hover{
+    background: #0093dd;
+    color: #fff;
+}
+/* need-help section end */
