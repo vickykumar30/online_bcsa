@@ -165,3 +165,32 @@ marquee{
     color: #fff;
 }
 /* need-help section end */
+/* footer start */
+  .social-icon li{
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #0093dd;
+    box-shadow: 0 0 3px 1px #0093dd;
+  }
+
+  .social-icon li:hover{
+    font-weight: bold;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+ footer .links li a:hover{
+    color: #dd127b !important;
+    transition: 0.2s;
+}
+.input-group{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+/* footer end */
