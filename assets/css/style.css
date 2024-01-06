@@ -9,7 +9,7 @@
 }
 :root{
     --dark-pink : #dd127b
-    --dark-white : #e2e2e2
+    
 }
 
 .dark-pink{
@@ -194,3 +194,25 @@ marquee{
 }
 
 /* footer end */
+/* about bcsa page start */
+
+/* about bcsa page end */
+
+/* registration page start */
+#form{
+    width: 48%;
+}
+/* .form-control{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5%;
+} */
+/* registration page end */
