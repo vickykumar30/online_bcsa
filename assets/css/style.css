@@ -206,4 +206,9 @@ marquee{
     background-color: #000;
     color: #fff;
 }
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
 /* registration page end */
