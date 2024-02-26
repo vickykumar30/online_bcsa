@@ -212,3 +212,21 @@ table {
 }
 
 /* registration page end */
+/* gallery page start */
+.album{
+    background-color: skyblue;
+}
+.image-container .image {
+    height: 250px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    overflow: hidden;
+}
+.image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .4s linear;
+}
+/* gallery page end */
