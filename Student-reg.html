@@ -101,10 +101,10 @@
                                 <a href="Marksheet.html" class="dropdown-item">Marksheet Verification</a>
                             </li>
                             <li>
-                                <a href="javascript:void()" class="dropdown-item">Course Enquiry</a>
+                                <a href="#Enquiry" class="dropdown-item">Course Enquiry</a>
                             </li>
                             <li>
-                                <a href="javascript:void()" class="dropdown-item">Student Registration</a>
+                                <a href="Student-reg.html" class="dropdown-item">Student Registration</a>
                             </li>
                         </ul>
                     </li>
@@ -115,10 +115,10 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="javascript:void()" class="dropdown-item">Long Term Courses</a>
+                                <a href="Longtermcourse.html" class="dropdown-item">Long Term Courses</a>
                             </li>
                             <li>
-                                <a href="javascript:void()" class="dropdown-item">Short Term Courses</a>
+                                <a href="Shorttermcourse.html" class="dropdown-item">Short Term Courses</a>
                             </li>
 
                         </ul>
@@ -130,27 +130,27 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="javascript:void()" class="dropdown-item">Norms and Regulation</a>
+                                <a href="Norms-Regulation.html" class="dropdown-item">Norms and Regulation</a>
                             </li>
                             <li>
                                 <a href="javascript:void()" class="dropdown-item">Download Prosposal</a>
                             </li>
                             <li>
-                                <a href="javascript:void()" class="dropdown-item">Franchises Enquiry</a>
+                                <a href="Franchises-enquiry.html" class="dropdown-item">Franchises Enquiry</a>
                             </li>
                             <li>
-                                <a href="javascript:void()" class="dropdown-item">Apply For Franchises</a>
+                                <a href="Apply-for-franchises.html" class="dropdown-item">Apply For Franchises</a>
                             </li>
                             <li>
-                                <a href="javascript:void()" class="dropdown-item">Authorized Study Center</a>
+                                <a href="Authorized.html" class="dropdown-item">Authorized Study Center</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item me-2">
-                        <a href="javascript:void()" class="nav-link text-dark">Projects</a>
+                        <a href="BCSA-project.html" class="nav-link text-dark">Projects</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a href="javascript:void()" class="nav-link text-dark">Gallery</a>
+                        <a href="BCSA-GALLERY.html" class="nav-link text-dark">Gallery</a>
                     </li>
 
                 </ul>
@@ -210,11 +210,13 @@
                             <tr>
                                 <td>Center Code</td>
                                 <td colspan="2">
-                                    <input type="text" value="001" class="form-control bordernone " readonly="readonly" style="background: none; border: none;">
+                                    <input type="text" value="001" class="form-control bordernone " readonly="readonly"
+                                        style="background: none; border: none;">
                                 </td>
                                 <td>Courses*</td>
                                 <td colspan="2">
-                                    <select name="courses" id="" class="form-select bg-light d-block w-100 align-items-center" required="true">
+                                    <select name="courses" id=""
+                                        class="form-select bg-light d-block w-100 align-items-center" required="true">
                                         <option value="">Select Course</option>
                                         <option value="ADCA">ADVANCE DIPLOMA IN COMPUTER APPLICATION (ADCA)</option>
                                         <option value="CFA">CERTIFICATE IN FINCIAL APPLICATION (CFA)</option>
@@ -229,7 +231,7 @@
                                         <option value="COREL DRAW">COREL DRAW (COREL DRAW)</option>
                                         <option value="DCA">DIPLOMA IN COMPUTER APPLICATION (DCA)</option>
                                         <option value="ADCA">ADVANCE DIPLOMA IN COMPUTER APPLICATION (ADCA)</option>
-                                     </select>
+                                    </select>
                                 </td>
                             </tr>
                             <tr>
@@ -240,7 +242,7 @@
                                 <td rowspan="4" style="width: 10%;">
                                     Student Photo
                                     <div id="preview" class="boder-rounded text-center"></div>
-                                    <input type="file" name="photo" required="true" id="image" >
+                                    <input type="file" name="photo" required="true" id="image">
                                 </td>
                             </tr>
                             <tr>
@@ -308,7 +310,8 @@
                                 <td rowspan="2">
                                     Student's Signature *
                                     <div id="preview1" class="boder-rounded text-center"></div>
-                                    <input class="mt-1" type="file" name="sign" id="imagesign" required="true" accept="image/png, image/jpeg">
+                                    <input class="mt-1" type="file" name="sign" id="imagesign" required="true"
+                                        accept="image/png, image/jpeg">
                                 </td>
                             </tr>
                             <tr>
@@ -321,43 +324,47 @@
                                     <small>(optional)</small>
                                 </td>
                                 <td colspan="2">
-                                    <input type="tel" class="form-control" name="phone" value="N/A" onfocus="if(this.value=='N/A'){this.value=''}" onblur="if(this.value==''){this.value='N/A'}">
+                                    <input type="tel" class="form-control" name="phone" value="N/A"
+                                        onfocus="if(this.value=='N/A'){this.value=''}"
+                                        onblur="if(this.value==''){this.value='N/A'}">
                                 </td>
                             </tr>
                             <tr>
                                 <td colspan="">E-mail ID &nbsp;<small>*</td>
-                                <td colspan=""><input type="text" class="form-control"  name="email" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}" 
-                                 require="true"></td>
+                                <td colspan=""><input type="text" class="form-control" name="email" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}" require="true"></td>
                                 <td>Country</td>
                                 <td>
-                                    <input type="text"  class="form-control bg-white" name="country" value="INDIA" readonly="readonly">
+                                    <input type="text" class="form-control bg-white" name="country" value="INDIA"
+                                        readonly="readonly">
                                 </td>
                                 <td>Mobile *</td>
                                 <td>
-                                    <input type="tel" class="form-control"  name="mobile" maxlength="10" required="true">
+                                    <input type="tel" class="form-control" name="mobile" maxlength="10" required="true">
                                 </td>
                             </tr>
                             <tr>
                                 <td>Category *</td>
                                 <td>
-                                    <select name="category"  class="form-select bg-white" required="true">
-                                    <option value="" selected="selected">Select category</option>
-                                    <option value="GEN">GEN</option>
-                                    <option value="OBC">OBC</option>
-                                    <option value="SC">SC</option>
-                                    <option value="ST">ST</option>
-                                    <option value="Handicapped">Handicapped</option>
-                                    <option value="Other">Other</option>
-                                </select>
+                                    <select name="category" class="form-select bg-white" required="true">
+                                        <option value="" selected="selected">Select category</option>
+                                        <option value="GEN">GEN</option>
+                                        <option value="OBC">OBC</option>
+                                        <option value="SC">SC</option>
+                                        <option value="ST">ST</option>
+                                        <option value="Handicapped">Handicapped</option>
+                                        <option value="Other">Other</option>
+                                    </select>
                                 </td>
                                 <td>Date of Birth *</td>
-                                <td><input type="date" name="dob"  class="form-control" required="true"/></td>
+                                <td><input type="date" name="dob" class="form-control" required="true" /></td>
                                 <td>Gender *
-                                    <input type="radio" name="gender" required="true" value="male">&nbsp;&nbsp;Male 
+                                    <input type="radio" name="gender" required="true" value="male">&nbsp;&nbsp;Male
                                     <input type="radio" name="gender" required="true" value="female">&nbsp;&nbsp;Female
                                 </td>
                                 <td>Blood Group:
-                                    <select name="blood"  class="form-select bg-white">
+                                    <select name="blood" class="form-select bg-white">
                                         <option value="">Select</option>
                                         <option value="A+">A+</option>
                                         <option value="A-">A-</option>
@@ -388,7 +395,7 @@
                                     <option value="12th">12th</option>
                                     <option value="Others">Others</option>
                                 </select>
-                                
+
                             </td>
                             <td><input type="file" class="form-control bg-white" name="doc1" id="" /></td>
                             <td><input type="file" class="form-control bg-white" name="aadhar" id="" /></td>
@@ -396,44 +403,78 @@
                     </table>
                     <table class="table table-striped table-bordered">
                         <tbody>
-                        <tr>
-                            <td></td>
-                            <td>Name of Board / University</td>
-                            <td>College / School Name</td>
-                            <td>Year of Passing</td>
-                            <td>% Obtained</td>
-                        </tr>
-                        <tr>
-                            <td>SSC / 10th</td>
-                            <td><input type="text" class="form-control" name="u10" id="u10" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}" ></td>
-                            <td><input type="text" class="form-control" name="c10" id="c10" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}" ></td>
-                            <td><input type="text" class="form-control" name="y10" id="y10" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                            <td><input type="text" class="form-control" name="o10" id="o10" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                        </tr>
-                        <tr>
-                            <td>Inter / 12th</td>
-                            <td><input type="text" class="form-control" name="u12" id="u12" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}" ></td>
-                            <td><input type="text" class="form-control" name="c12" id="c12" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                            <td><input type="text" class="form-control" name="y12" id="y12" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                            <td><input type="text" class="form-control" name="o12" id="o12" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                        </tr>
-                        <tr>
-                            <td>Degree</td>
-                            <td><input type="text" class="form-control" name="udg" id="udg" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                            <td><input type="text" class="form-control" name="cdg" id="cdg" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                            <td><input type="text" class="form-control" name="ydg" id="ydg" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                            <td><input type="text" class="form-control" name="odg" id="odg" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                        </tr>
-                        <tr>
-                            <td>Other</td>
-                            <td><input type="text" class="form-control" name="uth" id="uth" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                            <td><input type="text" class="form-control" name="cth" id="cth" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                            <td><input type="text" class="form-control" name="yth" id="yth" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                            <td><input type="text" class="form-control" name="oth" id="oth" value="N/A" onFocus="if(this.value=='N/A'){this.value=''}" onBlur="if(this.value==''){this.value='N/A'}"></td>
-                        </tr>
-                        <tr>
-                        <td colspan="5" style="text-align: center;"><input type="submit" name="insert" id="insert" value="Submit" class="btn btn-success btn-sm" /> &nbsp;&nbsp;<input type="reset" value="Reset" class="btn btn-danger  btn-sm"></td>
-                        </tr>
+                            <tr>
+                                <td></td>
+                                <td>Name of Board / University</td>
+                                <td>College / School Name</td>
+                                <td>Year of Passing</td>
+                                <td>% Obtained</td>
+                            </tr>
+                            <tr>
+                                <td>SSC / 10th</td>
+                                <td><input type="text" class="form-control" name="u10" id="u10" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="c10" id="c10" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="y10" id="y10" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="o10" id="o10" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                            </tr>
+                            <tr>
+                                <td>Inter / 12th</td>
+                                <td><input type="text" class="form-control" name="u12" id="u12" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="c12" id="c12" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="y12" id="y12" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="o12" id="o12" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                            </tr>
+                            <tr>
+                                <td>Degree</td>
+                                <td><input type="text" class="form-control" name="udg" id="udg" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="cdg" id="cdg" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="ydg" id="ydg" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="odg" id="odg" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                            </tr>
+                            <tr>
+                                <td>Other</td>
+                                <td><input type="text" class="form-control" name="uth" id="uth" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="cth" id="cth" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="yth" id="yth" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                                <td><input type="text" class="form-control" name="oth" id="oth" value="N/A"
+                                        onFocus="if(this.value=='N/A'){this.value=''}"
+                                        onBlur="if(this.value==''){this.value='N/A'}"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" style="text-align: center;"><input type="submit" name="insert"
+                                        id="insert" value="Submit" class="btn btn-success btn-sm" /> &nbsp;&nbsp;<input
+                                        type="reset" value="Reset" class="btn btn-danger  btn-sm"></td>
+                            </tr>
                         </tbody>
                     </table>
                 </form>

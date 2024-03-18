@@ -2,33 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap');
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-:root{
-    --dark-pink : #dd127b
-    
+
+:root {
+    --dark-pink: #dd127b
 }
 
-.dark-pink{
+.dark-pink {
     background-color: var(--dark-pink);
 }
 
 /* universal css start*/
-a{
+a {
     text-decoration: none;
     font-family: "roboto", sans-serif;
 }
+
 a.active {
     color: #000 !important;
 }
+
 a.nav-link:hover,
 a.dropdown-item:hover {
     color: var(--dark-pink) !important;
     transition: 0.2s linear;
 }
+
 .dropdown-menu {
     width: 200px;
     border: none;
@@ -36,33 +39,42 @@ a.dropdown-item:hover {
     transition: all 0.4s ease-in-out;
     box-shadow: 0px 0px 10px 0px #ccc;
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
     margin: 10px;
 }
-.fs-13{
+
+.fs-13 {
     font-size: 13px;
 }
-.fw-4{
+
+.fw-4 {
     font-weight: 400;
 }
-.fw-5{
+
+.fw-5 {
     font-weight: 500;
 }
-.fw-6{
+
+.fw-6 {
     font-weight: 600;
 }
-.text-primary2{
+
+.text-primary2 {
     color: #0093dd;
 }
-.bg-secondary2{
+
+.bg-secondary2 {
     background-color: #e2e2e2;
 }
-h3{
+
+h3 {
     color: #dd127b;
     font-family: 'Franklin Gothik Medium', 'Arial Narrow', sans-serif;
 }
-p{
+
+p {
     font-family: "roboto", sans-serif;
     line-height: 25px;
     text-align: justify;
@@ -72,9 +84,10 @@ p{
 
 /* universal css end */
 /* banner start */
-.carousel{
+.carousel {
     position: relative;
 }
+
 /* .carousel-indicators{
     position: absolute;
     right: 0;
@@ -89,19 +102,20 @@ p{
     margin-left: 15%;
     list-style: none;
 } */
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #dd127b; 
+    background-color: #dd127b;
 }
-.carousel-inner{
+
+.carousel-inner {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.carousel-item{
+.carousel-item {
     position: relative;
     display: none;
     width: 100%;
@@ -110,7 +124,8 @@ p{
     backface-visibility: hidden;
     transition: transform .6s ease-in-out;
 }
-.carousel-item .carousel-caption{
+
+.carousel-item .carousel-caption {
     position: absolute;
     top: 40%;
     left: 9%;
@@ -119,54 +134,64 @@ p{
     color: #dd127b !important;
     font-family: "solway";
 }
-.carousel-item .carousel-caption a:hover{
-    color:#dd127b !important ;
-    transform:scale(1.03s);
+
+.carousel-item .carousel-caption a:hover {
+    color: #dd127b !important;
+    transform: scale(1.03s);
     transition: all 0.2s;
 }
-.carousel-control-prev-icon, .carousel-control-next-icon{
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     border: 1px solid #fff;
 }
-.carousel-control-next, .carousel-control-prev{
+
+.carousel-control-next,
+.carousel-control-prev {
     width: 8%;
     opacity: 0.9;
 }
-.breadcrumb{
+
+.breadcrumb {
     height: 350px;
     line-height: 350px;
     justify-content: center;
 }
-marquee{
+
+marquee {
     box-shadow: 0 0 5px grey;
 }
 
 /* banner end */
 /* need-help section start */
-.address-info{
+.address-info {
     padding: 0px 30px;
     border-radius: 15px;
     border-top: 4px solid #0093dd;
     border-bottom: 4px solid #0093dd;
     box-shadow: 0px 0px 3px 1px #ccc;
 }
-.add-icon a{
+
+.add-icon a {
     font-size: 25px;
     color: #0093dd;
-    padding:12px 17px;
+    padding: 12px 17px;
     border-radius: 50%;
     background-color: #fff;
     box-shadow: 0px 0px 3px 1px #ccc;
 }
-.add-icon a:hover{
+
+.add-icon a:hover {
     background: #0093dd;
     color: #fff;
 }
+
 /* need-help section end */
 /* footer start */
-  .social-icon li{
+.social-icon li {
     width: 35px;
     height: 35px;
     padding-top: 5px;
@@ -174,18 +199,20 @@ marquee{
     text-align: center;
     background-color: #0093dd;
     box-shadow: 0 0 3px 1px #0093dd;
-  }
+}
 
-  .social-icon li:hover{
+.social-icon li:hover {
     font-weight: bold;
     transition: all 0.3s;
     transform: scale(1.1);
 }
- footer .links li a:hover{
+
+footer .links li a:hover {
     color: #dd127b !important;
     transition: 0.2s;
 }
-.input-group{
+
+.input-group {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -199,13 +226,15 @@ marquee{
 /* about bcsa page end */
 
 /* registration page start */
-#form{
+#form {
     width: 48%;
 }
-#form .btn:hover{
+
+#form .btn:hover {
     background-color: #000;
     color: #fff;
 }
+
 table {
     caption-side: bottom;
     border-collapse: collapse;
@@ -213,20 +242,27 @@ table {
 
 /* registration page end */
 /* gallery page start */
-.album{
+.album {
     background-color: skyblue;
 }
+
 .image-container .image {
     height: 250px;
     width: 350px;
     border: 10px solid #fff;
-    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    box-shadow: 0 5px 15px rgb(0, 0, 0, .1);
     overflow: hidden;
 }
+
+.image-container .image:hover img {
+    transform: scale(1.1);
+}
+
 .image-container .image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    transition: .4s linear;
+    transition: .3s linear;
 }
+
 /* gallery page end */
